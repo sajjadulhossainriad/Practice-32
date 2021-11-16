@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main-div{
+    width: 1020px;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+    border: 1px dotted black;
+}
+.paragraph-layout1{
+    width: 1020px;
+    height: auto;
+    display: flex;
+}
+.layout-item{
+    border: 1px solid black;
+    margin-top: 20px;
+    padding: 20px;
+}
+.layout-div2{
+    width: 1020px;
+    height: auto;
+    display: flex;
+}
+.layout-div-item{
+    flex-basis: 70%;
+    padding: 20px;
+    border: 1px solid black;
+}
+.another-layout-div-item{
+    flex-basis: 30%;
+    padding: 20px;
+    border: 1px solid black;
+}
+.menu-div{
+    width: 1020px;
+    height: 300px;
+}
+.menu-div ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 15px;
+}
+.menu-div ul li{
+}
+.menu-div ul li a{
+    text-decoration: none;
+    background-color: rgb(15, 83, 194);
+    color: #fff;
+    padding: 10px 25px;
+    border: 1px solid #000;
+
+}
+.div-item{
+    background-color: green;
+    border: 1px solid red;
+    text-align: center;
+    margin-top: 10px;
+}
+.first-div{
+    height: 300px;
+    width: 1020px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: flex-start;
+    border: 1px solid #ddd;
+}
+.second-div{
+    height: 300px;
+    width: 1020px;
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+.third-div{
+    height: 300px;
+    width: 1020px;
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.fourth-div{
+    height: 300px;
+    width: 1020px;
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: center;
+}
+.fifth-div{
+    height: 300px;
+    width: 1020px;
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+.sixth-div{
+    height: 300px;
+    width: 1020px;
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.seventh-div{
+    height: 300px;
+    width: 1020px;
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: flex-end;
+}
+.eighth-div{
+    height: 300px;
+    width: 1020px;
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.paragraph-layout1{
+    width: 1020px;
+    height: auto;
+    display: flex;
+}
